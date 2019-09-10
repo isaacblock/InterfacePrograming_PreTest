@@ -1,1 +1,22 @@
-<p>movie-data-component works!</p>
+<div class="movieData">
+    <div class="Image">
+      <app-movie-visual-component [url]="MovieImage"></app-movie-visual-component>
+    </div>
+    
+    <div>
+        <div class="generalData">
+          <app-movie-data-component [Title]="Title"></app-movie-data-component>
+          <app-movie-data-component [Rating]="Rating"></app-movie-data-component>
+          <app-movie-data-component [RunTime]="RunTime"></app-movie-data-component>
+            
+          </div>
+        <div class="additionalData">
+            <app-movie-data-component [ReleaseDate]="ReleaseDate"></app-movie-data-component>
+            <app-movie-data-component [ShortDescription]="ShortDescription"></app-movie-data-component>
+        </div>
+  
+    </div>
+  
+  
+    
+  </div>

@@ -1,0 +1,16 @@
+.movieData{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.image{
+    padding-right: 300px;
+}
+.generalData{
+    display: flex;
+    padding-left: 50px;
+}
+
+.additionalData{
+    padding-left: 50px; 
+}
